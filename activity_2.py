@@ -91,7 +91,7 @@ sistema_transporte.mostrar_grafo()
 
 """# 2. Encontrar la mejor ruta entre C y D"""
 
-ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("A", "E")
+ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("C", "D")
 print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
 
 # Mostrar el grafo de rutas del sistema de transporte
