@@ -81,10 +81,7 @@ sistema_transporte.agregar_ruta("C", "D", 1)
 sistema_transporte.agregar_ruta("B", "E", 7)
 sistema_transporte.agregar_ruta("D", "E", 2)
 
-"""# 1. Encontrar la mejor ruta entre A y E
-
-
-"""
+"""# 1. Encontrar la mejor ruta entre A y E"""
 
 ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("A", "E")
 print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
@@ -92,11 +89,25 @@ print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
 # Mostrar el grafo de rutas del sistema de transporte
 sistema_transporte.mostrar_grafo()
 
-"""# 2. Encontrar la mejor ruta entre C y D
-
-"""
+"""# 2. Encontrar la mejor ruta entre C y D"""
 
 ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("A", "E")
+print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
+
+# Mostrar el grafo de rutas del sistema de transporte
+sistema_transporte.mostrar_grafo()
+
+"""# 3. Encontrar la mejor ruta entre B y E"""
+
+ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("B", "E")
+print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
+
+# Mostrar el grafo de rutas del sistema de transporte
+sistema_transporte.mostrar_grafo()
+
+"""# 4. Encontrar la mejor ruta entre B y D"""
+
+ruta, costo_total = sistema_transporte.encontrar_mejor_ruta("B", "D")
 print(f"Mejor ruta: {ruta}, Costo total: {costo_total}")
 
 # Mostrar el grafo de rutas del sistema de transporte
